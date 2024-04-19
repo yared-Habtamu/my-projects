@@ -1,1 +1,183 @@
+body {
+  width: 100vw;
+  height: auto;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 5vh;
+  background-color: rgb(255, 255, 255);
+  z-index: 1;
+  margin-bottom: 4vh;
+}
+.elements {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  margin-top: 2vh;
+}
+.box {
+  margin-right: 5vw;
+  font-weight: bold;
+  align-self: center;
+  transition: 0.5s;
+}
+.sites {
+  align-items: center;
+  margin-left: 40vw;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 0.1em;
+}
+.elements a:hover {
+  color: #ffffff;
+  padding: 5px;
+}
+.box:hover {
+  background-color: rgb(11, 10, 10);
+  height: 1.7em;
+  border-radius: 0.5em;
+  box-shadow: 2px 2px 2px gray;
+}
+.logo {
+  width: fit-content;
+  margin-right: 3vw;
+  margin-left: 3vw;
+  margin-top: 1vh;
+}
+
+.contact {
+  width: 2rem;
+  margin-right: 2vw;
+  align-self: flex-end;
+}
+.site {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 2vh;
+  margin-left: 70vh;
+  margin-right: 2vw;
+}
+.back {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.background-clip {
+  position: absolute;
+  z-index: -1;
+}
+video {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  position: absolute;
+  object-fit: cover;
+  margin-top: 5vh;
+}
+.message {
+}
+.message a {
+  margin-left: 45%;
+  margin-top: 5vh;
+  font-size: 1.5em;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border: 3px solid rgb(126, 215, 195);
+  padding: 18px 30px;
+  border-radius: 50px;
+  transition: 0.2s;
+}
+.message h1 {
+  font-size: 80px;
+  font-family: sans-serif;
+  color: #ffffff;
+  margin-bottom: 5vh;
+}
+.page2 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../images/ate.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-position: relative;
+}
+.campus {
+  width: 100vw;
+  height: 28vh;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.uni {
+  width: 18vw;
+  height: 34vh;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 4vw;
+  margin-left: 1vw;
+}
+h1 {
+  margin-top: 10vh;
+  margin-left: 8vw;
+  letter-spacing: 0.1em;
+  color: rgb(0, 0, 0);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.uni.A {
+  background-image: url(../images/chrome_A3gRypo8Pu.png);
+  background-size: cover;
+  position: relative;
+  position: right;
+  border-radius: 50%;
+}
+.uni.A:hover {
+  box-shadow: 2px 2px grey;
+}
+
+.uni.B {
+  background-image: url(../images/chrome_d9EiYrHzRo.png);
+  background-size: cover;
+  border-radius: 70%;
+}
+.uni.B:hover {
+  box-shadow: 2px 2px grey;
+}
+
+.uni.C {
+  background-image: url(../images/chrome_fRfG6vSKdN.png);
+  background-size: cover;
+  border-radius: 50%;
+}
+.uni.C:hover {
+  box-shadow: 2px 2px 2px 2pxgrey;
+}
+
+.uni.D {
+  background-image: url(../images/chrome_oDA3qPC77C.png);
+  background-size: cover;
+  border-radius: 50%;
+}
+.uni.D:hover {
+  box-shadow: 2px 2px grey;
+}
+
+.uni.E {
+  background-image: url(../images/chrome_rRQzElXsxx.png);
+  background-size: cover;
+  border-radius: 50%;
+}
+.uni.E:hover {
+  box-shadow: 2px 2px grey;
+}
 
