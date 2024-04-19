@@ -1,5 +1,4 @@
 // Airline seat reserevation system
-*/
 #include <iostream>
 #include <cctype>
 #include <string>
