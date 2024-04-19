@@ -1,1 +1,103 @@
+:root {
+  --color-primary: #2584ff;
+  --color-secondary: #00d9ff;
+  --color-accent: #ff3400;
+  --color-headings: #1b0760;
+  --color-body: #918ca4;
+  --color-border: #ccc;
+  --border-radius: 40px;
+}
+body {
+  height: 100vh;
+  background-image: url(../images/jaredd-craig-HH4WBGNyltc-unsplash.jpg);
+  background-size: cover;
+}
+.logo {
+  display: inline;
+  width: fit-content;
+  margin-right: 3vw;
+  margin-left: 3vw;
+  margin-top: 1vh;
+  color: aliceblue;
+}
+.box {
+  margin-right: 5vw;
+  font-weight: bold;
+  align-self: center;
+  transition: 0.7s;
+}
+.box:hover {
+  background-color: rgb(11, 10, 10);
+  height: 1.8em;
+  border-radius: 0.5em;
+  box-shadow: 2px 2px 2px gray;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 5vh;
+  background-color: rgb(0, 0, 0);
+  z-index: 1;
+  margin-bottom: 4vh;
+}
+.elements {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  margin-top: 2vh;
+}
+.course1 {
+  display: inline-flex;
+}
+.course2 {
+  display: inline-flex;
+}
+/* Cards */
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.card {
+  width: 170px;
+  height: 170px;
+  border: 1px solid --color-primary;
+  size: 30rem;
+  text-align: center;
+  font-size: 2rem;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  padding: 1rem 1rem;
+  margin: 3rem;
+  background: var(--color-primary);
+  color: black;
+}
+.c1,
+.c7 {
+  background-image: url(../images/jaredd-craig-HH4WBGNyltc-unsplash.jpg);
+  background-size: cover;
+}
+.c2,
+.c6 {
+  background-image: url(../images/ryan-wallace-azA1hLbjBBo-unsplash.jpg);
+  background-size: cover;
+}
+.c3 {
+  background-image: url(../images/artturi-jalli-gYrYa37fAKI-unsplash.jpg);
+  background-size: cover;
+}
+.c4 {
+  background-image: url(../images/marvin-meyer-SYTO3xs06fU-unsplash.jpg);
+  background-size: cover;
+}
+.c5 {
+  background-image: url(../images/istockphoto-1416803956-2048x2048.jpg);
+  background-size: cover;
+}
+.c8 {
+  background-image: url(../images/toa-heftiba-ip9R11FMbV8-unsplash.jpg);
+  background-size: cover;
+}
 
