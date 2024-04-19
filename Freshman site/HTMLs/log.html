@@ -1,1 +1,73 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"><span class="pln">
+    <script src="https://kit.fontawesome.com/30999cbc44.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/log.css">
+</head>
+<body>
+  <div class="navigation">
+    <div class="logo">
+      <i class="fa-solid fa-infinity"> ENDLESS</i>
+    </div>
+    <div class="box A">
+      <a href="home.html"> Home</a>
+    </div>
+    <div class="box">
+      <a href="aboutus.html"> About Us</a>
+    </div>
+    <div class="box">
+      <a href="courses.html"> Courses</a>
+    </div>
+  </div>
+    <div class="all">
+        <div class="top">
+            <h2> Join Us</h2>
+            <p>Already have account? <a href="signin.html">Sign in</a></p>
+        </div>
+    <form>
+        <div class="group">
+          <label for="name">Name</label>
+          <input id="name" type="text" />
+        </div>
+        <div class="group">
+          <label for="email">Email</label>
+          <input id="email" type="email" />
+        </div>
+        <div class="group">
+            <label for="password">Password</label>
+            <input type="password" id="password">
+        </div>
+        <div class="group">
+          <label for="unis">University</label>
+          <input type="text" list="universs" id="unis">
+          <datalist id="universs">
+              <option >Addis Ababa University</option>
+              <option>AASTU</option>
+              <option>ASTU</option>
+              <option>BahirDar University</option>
+              <option>Jimma University</option>
+              <option> Other</option>
+          </datalist>
+        </div>
+        <form class="sex">
+            <div>
+                <input type="radio" name="choose" id="choice1"/>
+                <label class="label-inline" for="choice1"> Male </label>
+            </div>
+            <div>
+                <input type="radio" name="choose" id="choice2"/>
+                <label class="label-inline" for="choice2"> Female </label>
+            </div>
+         </form>
+         <div class="submit">
+            <button id="register" type="submit">Register</button>
+            <button id="clear" type="reset">Clear</button>
+         </div>    
+      </form>
+    </div>
+</body>
+</html>
