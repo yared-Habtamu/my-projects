@@ -8,7 +8,7 @@ class Solution(object):
 
         while fast < len(nums):
             if nums[fast] not in window:
-                window.append(nums[fast])
+                window.add(nums[fast])
                 tot += nums[fast]
                 max_tot = max(max_tot, tot)
                 fast += 1
